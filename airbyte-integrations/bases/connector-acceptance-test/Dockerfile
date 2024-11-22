@@ -3,7 +3,7 @@ FROM python:3.10.12 as base
 
 ENV ACCEPTANCE_TEST_DOCKER_CONTAINER 1
 ENV DOCKER_VERSION = "24.0.2"
-
+ENV CAT_VERSION = "3.9.7"
 RUN apt-get update \
     && pip install --upgrade pip \
     && apt-get -y install tzdata bash curl
