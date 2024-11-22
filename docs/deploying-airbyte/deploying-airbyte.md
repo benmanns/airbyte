@@ -94,7 +94,7 @@ global:
 
 ### 4. (optional for customized installations only) Customize your deployment
 
-The Airbyte platform is built to integrate with your existing cloud infrastructure. You can configure various components of the platform to suit your needs. This includes an object stores, such as S3 or GCS for storing logs and state, a database for externalizing state, and a secrets manager for keep your secrets secure.
+The Airbyte platform is built to integrate with your existing cloud infrastructure. You can configure various components of the platform to suit your needs. This includes an object stores, such as S3 or GCS for storing logs and state, a database for externalizing state, and a secrets manager for keeping your secrets secure.
 
 Each of these integrations will require you to create a secret upfront. For instructions on how to do that check out [Creating a Secret](./creating-secrets.md)
 
